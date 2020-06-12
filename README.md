@@ -1,6 +1,11 @@
 # 本项目采用深度学习的方式实现了整个车牌识别算法
 
-gui.py是使用pyqt5简单写的界面，主要是为了演示，后续有时间可
+项目结构：  
+GUI：预测部分，包含整个车牌检测与字符识别两个网络。两个网络权重下载地址：https://pan.baidu.com/s/1TLnjWe_XX4ZxssbdStVT9w  提取码：rnfk
+Train：车牌检测与字符识别两个网络的训练。
+
+
+gui.py是使用pyqt5简单写的界面，主要是为了演示，后续有时间可具体完善。
 
 整个车牌识别主要分为车牌检测与车牌字符识别两部分。 
 1.车牌检测模块中使用的是YOLOv3网络，训练数据集来自于CCPD 各子数据集https://github.com/detectRecog/CCPD ，最终 MAP(Mean Average Precision)最高达97.42%，检测速率为1.5s/张。该模型能够初步满足对于车牌检测的精度要求。  
