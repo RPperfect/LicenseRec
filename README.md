@@ -18,5 +18,5 @@ gui.py是使用pyqt5简单写的界面，主要是为了演示，后续有时间
 
 车牌检测效果：  
 ![LOCATION](https://github.com/windkiss5/LicenseRec/blob/master/snipaste_20200612_192633.jpg)  
-车牌识别效果：
+车牌识别效果：  
 ![REC](https://github.com/windkiss5/LicenseRec/blob/master/snipaste_20200612_194036.jpg)  
