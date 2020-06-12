@@ -17,5 +17,6 @@ gui.py是使用pyqt5简单写的界面，主要是为了演示，后续有时间
 3.本项目使用CRNN去做车牌字符识别而不是一般的CNN再接固定数量的全连接层的目的是为了同时实现识别7位的普通车牌以及8位的新能源车牌，但是本次没有实现对8位车牌的识别，原因主要是CCPD数据集并没有新能源车牌的数据，导致在车牌检测时，不能很好的兼容新能源车牌。后续的改进方案主要时：对于CRNN的车牌字符识别，只需要将Global.py中WORD_LEN变更为8，然后使用7位普通车牌与8位新能源车牌混合的数据集开始训练就行，但是前提还是把车牌检测部分的新能源车牌数据集问题先解决。  
 
 车牌检测效果：  
-![CTC](https://github.com/windkiss5/LicenseRec/blob/master/snipaste_20200612_192524.jpg)  
+![LOCATION](https://github.com/windkiss5/LicenseRec/blob/master/snipaste_20200612_192633.jpg)  
 车牌识别效果：
+![REC](https://github.com/windkiss5/LicenseRec/blob/master/snipaste_20200612_194036.jpg)  
