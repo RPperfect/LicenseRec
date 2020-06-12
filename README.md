@@ -1,8 +1,9 @@
 # 本项目采用深度学习的方式实现了整个车牌识别算法
 
 项目结构：  
-GUI：预测部分，包含整个车牌检测与字符识别两个网络。两个网络权重下载地址：https://pan.baidu.com/s/1TLnjWe_XX4ZxssbdStVT9w  提取码：rnfk
-Train：车牌检测与字符识别两个网络的训练。
+1.GUI：预测部分，包含整个车牌检测与字符识别两个网络。两个网络权重下载地址：https://pan.baidu.com/s/1TLnjWe_XX4ZxssbdStVT9w 提取码：rnfk  
+
+2.Train：车牌检测与字符识别两个网络的训练。
 
 
 gui.py是使用pyqt5简单写的界面，主要是为了演示，后续有时间可具体完善。
