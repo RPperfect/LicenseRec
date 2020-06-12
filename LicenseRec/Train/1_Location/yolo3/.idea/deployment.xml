@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="root@litaai.tpddns.cn:45596">
+    <serverData>
+      <paths name="root@111.44.254.179:45016">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@litaai.tpddns.cn:45596">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/usr/yolo3" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@litaai.tpddns.cn:49346">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/usr/data/yolo3" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@litaai.tpddns.cn:55110">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/usr/yolo3" local="$PROJECT_DIR$" />
+            <mapping />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

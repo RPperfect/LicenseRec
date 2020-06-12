@@ -1,0 +1,6 @@
+helmet
+clothes
+pants
+shoes
+w_clothes
+person
